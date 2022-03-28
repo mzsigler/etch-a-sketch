@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="app.js" defer></script>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js", defer></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch-A-Sketch</title>
+    <title>Etch-a-Sketch</title>
 </head>
 <body>
-    <div class="header">Etch-A-Sketch</div>
-
-    <div class ="controls" id="controls"> 
-        <input  id ="input" class ="input" type="text" placeholder="10">
-        <button class ="btn" id="build">Build!</button>
-        <button class ="btn" id="reset">Reset</button>
+<div class="controls">
+    <div class="inputBox"><input type="number" id="number" placeholder="How many boxes per side?"></div>
+    <div class="weirdButton"><button id="btn">Make Boxes!</button></div>
+    <div class="resetButton"><button id= "resetButton">Reset!</button></div>
+</div>
+    <div class="spacer"></div>
+    
+    <div class="container", id="container">
     </div>
-    <div class="container" id="container">
-
-    </div>
+    <div class="credits">2022 Mikel Sigler.</div>
 </body>
 </html>
