@@ -4,18 +4,28 @@
 
 .controls{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .inputBox {
-    margin: auto;
     padding: 8px;
 
 }
 
+button {
+    font-size:  large;
+    padding: 8px;
+}
+
+input {
+    font-size: large;
+
+}
+
 .resetButton{
-    margin: auto;
+    
+    padding: 8px;
 }
 
 .spacer {
@@ -38,7 +48,6 @@
 }
 
 .weirdButton {   
-    margin: auto;
     align-items: center;
     padding: 8px;
 }
